@@ -1,0 +1,30 @@
+{
+  "name": "neucoursewiki-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sixin Li, Zixin Zhao, Jiayan Ma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.3.0",
+    "mongodb": "^4.8.1",
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ccs.neu.edu/NEU-CS5610-SU22/NEUCourseWiki-backend.git"
+  },
+  "engines": {
+    "node": "v17.9.0",
+    "npm": "8.5.5"
+  }
+}
